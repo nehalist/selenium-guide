@@ -1,0 +1,19 @@
+{
+  "name": "selenium-mocha-chai-testing",
+  "version": "1.0.0",
+  "description": "Selenium testing with Mocha and Chai",
+  "homepage": "https://nehalist.io/selenium-tests-with-mocha-and-chai-in-javascript",
+  "scripts": {
+    "test": "node_modules/.bin/mocha Tests/DefaultTest.js --timeout 10000",
+    "runner": "node runner.js"
+  },
+  "private": true,
+  "author": "Kevin Hirczy <kevin@nehalist.io> (https://nehalist.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chromedriver": "^2.41.0",
+    "mocha": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
